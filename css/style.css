@@ -502,7 +502,7 @@ html {
 /* section3 */
 
 .section3 {
-  background-image: url("/images/bg-2.png");
+  background-image: url("../images/bg-2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -582,7 +582,7 @@ html {
 }
 /* section4 */
 .section4 {
-  background-image: url("/images/bg-4.png");
+  background-image: url("../images/bg-4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

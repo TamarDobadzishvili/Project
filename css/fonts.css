@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/CormorantGaramond-Light.eot');
+    src: url('../fonts/CormorantGaramond-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-Light.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Light.woff') format('woff'),
+        url('../fonts/CormorantGaramond-Light.ttf') format('truetype'),
+        url('../fonts/CormorantGaramond-Light.svg#CormorantGaramond-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LightItalic';
+    src: url('../fonts/CormorantGaramond-LightItalic.eot');
+    src: url('../fonts/CormorantGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-LightItalic.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-LightItalic.woff') format('woff'),
+        url('../fonts/CormorantGaramond-LightItalic.ttf') format('truetype'),
+        url('../fonts/CormorantGaramond-LightItalic.svg#CormorantGaramond-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SemiBoldItalic';
+    src: url('../fonts/CormorantGaramond-SemiBoldItalic.eot');
+    src: url('../fonts/CormorantGaramond-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/CormorantGaramond-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/CormorantGaramond-SemiBoldItalic.svg#CormorantGaramond-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+

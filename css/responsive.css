@@ -1,0 +1,242 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1024px){
+    .list {
+    font-size: 15px;
+        
+}
+.second-header-title{
+    font-size: 15px;
+}
+.section2-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+}
+.section2-title::before, .section2-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid black;
+    width: 220px;
+    margin: 15px 30px;}
+.tea-img{
+    max-width: 250px;
+  height: auto;
+}
+.slick-dots li{
+    display: none;
+}
+.blog-paragraph{
+font-size: 18px;
+}
+.costumer{
+    font-size: 13px;
+}
+}
+@media (max-width: 768px) {
+    
+
+
+    .table {
+        display: none;
+        }
+    .hidden{
+        display: block;
+        position: relative;
+        width: 100%;
+        border: solid 1px #ffff;
+        border-left-style: none;
+        border-right-style: none;
+    }
+    .burger-bar {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 50px;
+        position: absolute;
+         cursor: pointer;
+}
+    
+    .bar1, .bar2, .bar3 {
+        width: 40px;
+        height: 3px;
+        background-color:rgb(0, 0, 138);
+        margin: 6px 0;
+        -webkit-transition: 0.4s  ease-out;
+        -o-transition: 0.4s  ease-out;
+        transition: 0.4s  ease-out;
+    }
+    .change.bar1{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        -ms-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change.bar2{
+        display: none;
+    }
+    .change.bar3{
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        -ms-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .burger-nav{
+        display: none;
+    
+    }
+    .burger-nav.change{
+        display: block;
+        background-color: rgba(91, 93, 122, 0.856);
+        width: 100%;
+        height: 300px;
+        z-index: 1000;
+
+      
+    }
+    .burger-ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 40px;
+        font-weight:500;
+    }
+    .list1{
+        margin-top: 25px;
+    }
+    
+    .burger-list{
+        font-family: 'SemiBoldItalic';
+        font-size: 36px;
+        line-height: 50px;
+        color: black;
+    }
+    
+
+.section4-section{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    padding: 60px 0;
+}
+.slider-blog{
+    margin:0 auto;
+}
+.second{
+    margin: 0;
+}
+.section2-title::before, .section2-title::after {
+    display: none;
+}
+.section2-title {
+   border-bottom: 1px solid black;
+}
+.section2{
+    margin-bottom: 150px;
+}
+.paragraphs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+.footer-div {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-title{
+    font-size: 30px;
+}
+.left-block{
+    text-align: center;
+    margin-right: 0;
+}
+.footer-li{
+    font-size: 18px;
+}
+
+.box-li {
+    font-size: 18px;
+}
+.right-block .left-block, .box-1{
+    text-align: center;
+}
+
+}
+@media (max-width: 480px){
+    .table{
+        height: 65px;
+    }
+    .container{
+        margin-top: 14px;
+    margin-left: 60px;
+    }
+.section1{
+    height: auto;
+}
+.first-section-title1{
+    font-size: 30px;
+    margin-top: 200px
+}
+.first-section-title2{
+    font-size: 30px;
+}
+.button{
+    margin-bottom: 50px;
+}
+.section3, .section4{
+    height: 300px;
+}
+.shop-btn{
+    width: auto;
+}
+.section3-title{
+    font-size: 25px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.box-1 {
+    text-align: left;
+}
+.form{
+    text-align: center;
+}
+.submit{
+    margin-top: 10px;
+}
+.bar1, .bar2, .bar3 {
+    width: 30px;
+}
+
+.burger-list{
+    
+    line-height: 35px;
+    
+}
+.list1{
+    margin-top: 65px;
+}
+}
